@@ -147,8 +147,8 @@
         </li>
         <li>
           Vi har opprettet en common.js som inneholder funksjon som brukes på
-          flere sider. Her har må isak kanskje forklare hva disse gjør ….. nei
-          trenger ikke forklare det
+          flere sider, dette er for å ha disse på et felles sted, for å lettere
+          komme fram til de.
         </li>
       </ul>
 
@@ -289,7 +289,22 @@
         <li>kontakt-oss.html: Tale</li>
         <li>legg-til-hybel.html: Ingrid</li>
       </ul>
-
+      <h2>Modularitet</h2>
+      <p>
+        Vi har valgt å bruke script som håndterer større mengder data uten at vi
+        må endre på kode. Dette gjør det lett å legge til flere hybler, ved bare
+        å legge de til i filen data.js. Filene hybel.js, og hybler.js gjør
+        dette.
+      </p>
+      <p>
+        Nav-baren er skrevet i et script som er lagt til i hver html-fil. Dette
+        gjør at vi har sluppet å skrive samme kode på hver side. Vi kunne gjort
+        det samme med footer, men kom frem til at det var såpass lite innhold,
+        så vi skrev bare inn teksten og hadde heller felles stil for footer i
+        main.css. Ellers har vi brukt main.css til alt av felles stil som
+        gjelder på flere sider, som font, stil på overskrifter og stil på
+        input-felt.
+      </p>
       <footer>
         <p>Gruppe 50, 2021</p>
       </footer>
